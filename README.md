@@ -1,12 +1,11 @@
-Default Username: admin
-Default Pass: admin
-
+Username: admin
+password: admin
 
 
 
 # React Auth & Product Management App
 
-This project is a React application built as part of an interview assessment.  
+This project is a React application 
 It demonstrates authentication flow, protected routes, Redux state management, and CRUD operations with a clean UI using Tailwind CSS.
 
 ---
@@ -36,28 +35,7 @@ It demonstrates authentication flow, protected routes, Redux state management, a
 
 ---
 
-## 📁 Project Structure
 
-```
-src/
- ├─ app/
- │   └─ store.js
- ├─ features/
- │   ├─ auth/
- │   │   └─ authSlice.js
- │   └─ products/
- │       └─ productSlice.js
- ├─ pages/
- │   ├─ Login.jsx
- │   ├─ Signup.jsx
- │   └─ Products.jsx
- ├─ components/
- │   └─ ProtectedRoute.jsx
- ├─ App.jsx
- └─ main.jsx
-```
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -113,23 +91,10 @@ After login, a mock JWT token is stored in `localStorage` and protected routes a
 - Add form validation and error boundaries
 - Implement pagination and search in product list
 - Add unit and integration tests
-- Improve accessibility and UI animations
-
----
-
-## 📝 Interview Explanation Summary
-
-> This project demonstrates my understanding of React fundamentals, Redux Toolkit for state management, authentication flow, protected routing, and CRUD operations.  
-> Due to network restrictions, authentication was mocked while preserving real-world JWT-based logic and application architecture.
-
----
+- Improve accessibility and UI 
 
 ## 📬 Author
 
 **Arun Bhardwaj**  
 B.Tech – Computer Science & Engineering  
-Aspiring Full Stack / MERN Stack Developer
-
----
-
-⭐ If you like this project, feel free to star the repository!
+Aspiring Full Stack / MERN Stack 
